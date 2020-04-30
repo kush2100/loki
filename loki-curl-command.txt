@@ -1,0 +1,10 @@
+
+
+curl 'localhost:3100/api/prom/label'
+curl 'localhost:3100/api/prom/query?query=%7bjob="grafanalog"%7d' | jq .
+curl 'localhost:3100/api/prom/label?start=0&end=1'
+curl 'localhost:3100/api/prom/label'; sleep 300; done
+curl -G -s "http://<host>:3100/loki/api/v1/label" | jq .
+
+
+
