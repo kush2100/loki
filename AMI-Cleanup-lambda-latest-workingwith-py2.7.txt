@@ -2,6 +2,8 @@
 # script to remove the older ami backup based on the retention period defined
 # note: make sure to change the region name below in the script
 # Add Envirement Variable key : AWS_ACCOUNT_NUMBER Value : self
+# Disclaimer: This Script does not comes with any guaranty, please go through it carefully before executing it. I Will 
+# not be responsible for any loss of data or any Issues happened
 #==============================================================================
 
 import boto3

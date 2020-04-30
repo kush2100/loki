@@ -4,7 +4,9 @@
 # work on Python 2.7
 # add Envirement variable in lambda function with 1)key : AWS_ACCOUNT_ID value : self 2) key : RETENTION_DAYS value: 0-365
 # Basic settings : Timeout 15 min 0 sec - Memory : 128
-## add tags to instance key : Backup, Value : True
+# add tags to instance key : Backup, Value : True
+# Disclaimer: This Script does not comes with any guaranty, please go through it carefully before executing it. I Will 
+# not be responsible for any loss of data or any Issues happened
 #==================================================================
 
 import boto3
